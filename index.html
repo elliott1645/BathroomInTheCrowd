@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--<?php
+//Step1
+	$db = mysql_connect("localhost","username","password"); 
+	if (!$db) {
+		die("Database connection failed miserably: " . mysql_error());
+	}
+//Step2
+	$db_select = mysql_select_db("databasename",$db);
+	if (!$db_select) {
+		die("Database selection also failed miserably: " . mysql_error());
+	}
+?>-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href ="style.css" />
+        <title>Airpnp</title>
+	</head>
+ 	<body>
+    <!--
+    <?php
+	//Step3
+		$result = mysql_query("SELECT * FROM mytable", $db);
+ 		if (!$result) {
+ 			die("Database query failed: " . mysql_error());
+ 		}
+	?>
+    -->
+    	<div id="header">
+			<h2>Airpnp</h2>
+		</div>
+        <div class="bottom">
+			<div class="userInput">
+            	<form>
+                	Username: <input type="input" name="Username"><br>
+                    Password: <input type="input" name="Password"><br>
+                </form>
+                <a href="website.html"><button>Log in</button>Home</a>
+			</div>
+		</div>
+	</body>
+</html>
