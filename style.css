@@ -1,6 +1,50 @@
 body {
     background-color: #d0e4fe;
 }
+
+h2 {
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #acd1b2;
+}
+
+img {
+    height: 170px;
+    width: 170px;
+    box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+#navbar {
+    left:50%;
+    margin-left:-254px;
+}
+
+#header {
+    position: relative;
+    top: -10px;
+    background-color: #3c4543;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+ul{
+    list-style-type: none;
+    position: fixed;
+    margin: -10px;
+}
+
+li {   
+    border: 2px solid #000000;
+    font-family: Futura, Tahoma, sans-serif;
+    color: #ffffff;
+    border-radius: 5px 5px;
+    background-color: #cc0323
+}
+
 .rate_widget {
     border:     1px solid #CCC;
     overflow:   visible;
