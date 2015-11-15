@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href ="/home/elliott/style.css" />
+    <link rel="stylesheet" type="text/css" href ="style.css" />
     <title>Airpnp</title>
     <meta charset="UTF-<8"/>
   </head>
@@ -26,7 +26,9 @@ function initialize() {
               },
               map = new goo.Map(document.getElementById('map_canvas'),
               mapOptions),
+              image = 'to.png';
               marker = new goo.Marker({
+                  icon: image,
                   map: map,
                   position: map.getCenter()
               });
